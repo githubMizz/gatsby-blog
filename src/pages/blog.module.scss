@@ -1,14 +1,36 @@
-.link-item {
-  color: #999999;
-  font-size: .9rem;
-  margin-right: 1.3rem;
-  text-decoration: none;
+.posts {
+  list-style-type: none;
+  margin: 0;
 }
 
-.link-item:hover {
-  color: #666666;
+.post {
+
+  background: #f4f4f4;
+  display: block;
+  padding: 1rem;
+
+  .link-item {
+    color: #666666;
+    font-size: 0.9rem;
+    margin-right: 1rem 0;
+    text-decoration: none;
+
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+
+  .link-item:hover {
+    color: #555555;
+  }
+
+  p {
+    color: #777777;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
 }
 
-.active-link-item {
-  color: #333333;
+.post:hover {
+  background: #e4e4e4;
 }

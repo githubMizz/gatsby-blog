@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../layouts/Layout"
-
+import Head from "../components/Head"
 const about = () => {
   return (
     <Layout>
+      <Head pageTitle="About" />
       <h1>About</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
